@@ -34,10 +34,11 @@
  echo "Done\n";
  
 $city = array("name" => "Toronto",
-              "language" => "English");
+              "language" => "English",
+              "population" => 6000000);
 
  echo("<pre>\n");
- print_r($city);
+ var_dump($city);
  echo("\n</pre>\n");
 
 ?>
