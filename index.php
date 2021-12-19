@@ -22,8 +22,9 @@
 
   
  for($deposit = 0; $deposit <= 15; $deposit++){
+  
    echo "$deposit of 200 is $". $deposit * 200;
-    echo "\n";
+    echo ("\n");
   }
  
  for($count = 1; $count < 100; $count++){
@@ -31,6 +32,13 @@
      echo "Count: $count\n";
  }
  echo "Done\n";
+ 
+$city = array("name" => "Toronto",
+              "language" => "English");
+
+ echo("<pre>\n");
+ print_r($city);
+ echo("\n</pre>\n");
 
 ?>
 <p>This was written in HTML, not in PHP.</p>
