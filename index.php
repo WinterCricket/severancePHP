@@ -14,7 +14,7 @@
 $x = 4 * 44;
 echo "List the number ".$x." times by morning!";
 echo "Then jump toward the morning moon.\n";
-echo "Trying hard to do this thing.";
+
  
 
 ?>
