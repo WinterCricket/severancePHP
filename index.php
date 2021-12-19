@@ -22,10 +22,16 @@
 
   
  for($deposit = 0; $deposit <= 15; $deposit++){
-    echo "$deposit of 200 is $". $deposit * 200;
+   echo "$deposit of 200 is $". $deposit * 200;
     echo "\n";
   }
  
+ for($count = 1; $count < 100; $count++){
+   if(($count % 2) == 0 ) continue;
+     echo "Count: $count\n";
+  
+   
+ }
 
 ?>
 <p>This was written in HTML, not in PHP.</p>
