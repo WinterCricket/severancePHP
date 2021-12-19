@@ -29,9 +29,8 @@
  for($count = 1; $count < 100; $count++){
    if(($count % 2) == 0 ) continue;
      echo "Count: $count\n";
-  
-   
  }
+ echo "Done\n";
 
 ?>
 <p>This was written in HTML, not in PHP.</p>
