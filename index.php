@@ -34,7 +34,7 @@
  echo "Done\n";
  
 $city = array(
-  "city" => "Toronto",
+  "name" => "Toronto",
   "language" => "English",
   "population" => 6000000
 );
@@ -47,16 +47,11 @@ foreach($city as $k => $v){
   echo "Key=", $k," Val=", $v, "\n";
   
 }
+$name = $city['name'] ?? 'not found';
+$addr = $city['addr'] ?? 'not found';
+echo("Name=$name\n");
+echo("Addr=$addr\n");
 
-$city = array(
-   "Toronto",
-  "English",
-  6000000
-);
-
-for($i=0; $i < count($city); $i++){
-  echo "I=",$i," Val=", $city[$i],"\n";
-}
 
 
 ?>
