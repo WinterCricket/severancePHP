@@ -47,8 +47,10 @@ foreach($city as $k => $v){
   echo "Key=", $k," Val=", $v, "\n";
   
 }
-$name = $city['name'] ?? 'not found';
-$addr = $city['addr'] ?? 'not found';
+
+
+$name = isset($city['name']) ? $city['name'] : 'no damned name!'; 
+$addr = isset($city['addr']) ? $city['addr'] : 'no damned addr!';
 echo("Name=$name\n");
 echo("Addr=$addr\n");
 
