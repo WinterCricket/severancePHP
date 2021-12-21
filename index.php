@@ -40,8 +40,13 @@ $city = array(
 );
 
  echo("<pre>\n");
- var_dump($city);
+ print_r($city);
  echo("\n</pre>\n");
+
+foreach($city as $k => $v){
+  echo "Key=", $k," Val=", $v, "\n";
+}
+
 
 ?>
 <p>This was written in HTML, not in PHP.</p>
