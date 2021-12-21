@@ -33,10 +33,11 @@
  }
  echo "Done\n";
  
-$city = array();
-$city[] =  "Toronto";
- $city[] =  "English";
-$city[] =  6000000;
+$city = array(
+  "city" => "Toronto",
+  "language" => "English",
+  "population" => 6000000
+);
 
  echo("<pre>\n");
  var_dump($city);
