@@ -45,6 +45,17 @@ $city = array(
 
 foreach($city as $k => $v){
   echo "Key=", $k," Val=", $v, "\n";
+  
+}
+
+$city = array(
+   "Toronto",
+  "English",
+  6000000
+);
+
+for($i=0; $i < count($city); $i++){
+  echo "I=",$i," Val=", $city[$i],"\n";
 }
 
 
